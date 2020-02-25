@@ -2,13 +2,13 @@ import React from 'react';
 import { Link } from 'gatsby';
 
 import Layout from '../components/layout';
-import SEO from '../components/seo';
 
-const IndexPage = () => (
+const SecondPage = () => (
 	<Layout>
-		<SEO title="Home" />
-		<h1>Find the Puurfect Companion for You</h1>
-		<p>Cats Available for Adoption</p>
+		<div style={{display: `flex`, alignItems: `baseline`}}>
+			<h2>Available Cats</h2>
+			<Link style={{paddingLeft: `15px`, color: `black`, textDecoration: `none`}} to="addCat">+ Add Cat</Link>
+		</div>
 		<div style={{ display: `flex` }}>
 			<div
 				style={{
@@ -112,4 +112,4 @@ const IndexPage = () => (
 	</Layout>
 );
 
-export default IndexPage;
+export default SecondPage;
