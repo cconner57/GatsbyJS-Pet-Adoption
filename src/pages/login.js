@@ -2,11 +2,9 @@ import React from 'react';
 import { Link } from 'gatsby';
 
 import Layout from '../components/layout';
-import SEO from '../components/seo';
 
-const SecondPage = () => (
+const Login = () => (
 	<Layout>
-		<SEO title="Page two" />
 		<h1>Please Login</h1>
 		<div>
 			<form style={{ display: `flex`, flexDirection: `column` }}>
@@ -22,4 +20,4 @@ const SecondPage = () => (
 	</Layout>
 );
 
-export default SecondPage;
+export default Login;

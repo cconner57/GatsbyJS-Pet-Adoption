@@ -3,7 +3,7 @@ import { Link } from 'gatsby';
 
 import Layout from '../components/layout';
 
-const SecondPage = () => (
+const Directory = () => (
 	<Layout>
 		<div style={{display: `flex`, alignItems: `baseline`}}>
 			<h2>Available Cats</h2>
@@ -112,4 +112,4 @@ const SecondPage = () => (
 	</Layout>
 );
 
-export default SecondPage;
+export default Directory;

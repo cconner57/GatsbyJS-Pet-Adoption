@@ -27,11 +27,8 @@ const IndexPage = () => (
 				<p>Breed: Domestic Short Hair & Tabby Mix</p>
 				<p>Adult - Male - Large - Tabby (Gray / Blue / Silver)</p>
 				<div>
-					<Link style={{ color: `black`, textDecoration: `none`, padding: `10px` }} to="editCat">
-						Edit
-					</Link>
-					<Link style={{ color: `black`, textDecoration: `none`, padding: `10px` }} to="removeCat">
-						Remove
+					<Link style={{ color: `black`, textDecoration: `none`, padding: `10px` }} to="profileCat">
+						View Profile
 					</Link>
 				</div>
 			</div>
@@ -51,11 +48,8 @@ const IndexPage = () => (
 				<p>Breed: Domestic Short Hair & Tabby Mix</p>
 				<p>Adult - Male - Large - Tabby (Gray / Blue / Silver)</p>
 				<div>
-					<Link style={{ color: `black`, textDecoration: `none`, padding: `10px` }} to="edit">
-						Edit
-					</Link>
-					<Link style={{ color: `black`, textDecoration: `none`, padding: `10px` }} to="remove">
-						Remove
+					<Link style={{ color: `black`, textDecoration: `none`, padding: `10px` }} to="profileCat">
+						View Profile
 					</Link>
 				</div>
 			</div>
@@ -76,11 +70,8 @@ const IndexPage = () => (
 				<p>Breed: Domestic Short Hair & Tabby Mix</p>
 				<p>Adult - Male - Large - Tabby (Gray / Blue / Silver)</p>
 				<div>
-					<Link style={{ color: `black`, textDecoration: `none`, padding: `10px` }} to="edit">
-						Edit
-					</Link>
-					<Link style={{ color: `black`, textDecoration: `none`, padding: `10px` }} to="remove">
-						Remove
+					<Link style={{ color: `black`, textDecoration: `none`, padding: `10px` }} to="profileCat">
+						View Profile
 					</Link>
 				</div>
 			</div>
@@ -100,11 +91,8 @@ const IndexPage = () => (
 				<p>Breed: Domestic Short Hair & Tabby Mix</p>
 				<p>Adult - Male - Large - Tabby (Gray / Blue / Silver)</p>
 				<div>
-					<Link style={{ color: `black`, textDecoration: `none`, padding: `10px` }} to="edit">
-						Edit
-					</Link>
-					<Link style={{ color: `black`, textDecoration: `none`, padding: `10px` }} to="remove">
-						Remove
+					<Link style={{ color: `black`, textDecoration: `none`, padding: `10px` }} to="profileCat">
+						View Profile
 					</Link>
 				</div>
 			</div>

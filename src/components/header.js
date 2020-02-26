@@ -5,7 +5,7 @@ import React from 'react';
 const Header = ({ siteTitle }) => (
 	<header
 		style={{
-			background: `rebeccapurple`,
+			background: `rgb(113, 238, 184)`,
 			marginBottom: `1.45rem`,
 			display: `flex`
 		}}
@@ -35,7 +35,7 @@ const Header = ({ siteTitle }) => (
 					color: `white`,
 					textDecoration: `none`
 				}}
-				to="/page-2/"
+				to="/login/"
 			>
 				Admin
 			</Link>
