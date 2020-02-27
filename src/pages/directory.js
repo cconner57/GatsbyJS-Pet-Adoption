@@ -5,105 +5,65 @@ import Layout from '../components/layout';
 
 const Directory = () => (
 	<Layout>
-		<div style={{display: `flex`, alignItems: `baseline`}}>
+		<div className="Directory-title">
 			<h2>Available Cats</h2>
-			<Link style={{paddingLeft: `15px`, color: `black`, textDecoration: `none`}} to="addCat">+ Add Cat</Link>
+			<Link className="Add" to="addCat">
+				+ Add Cat
+			</Link>
 		</div>
-		<div style={{ display: `flex` }}>
-			<div
-				style={{
-					display: `flex`,
-					flexDirection: `column`,
-					textAlign: `center`,
-					width: `250px`,
-					border: `1px solid gray`,
-					borderRadius: `10px`,
-					margin: `0 5px`
-				}}
-			>
-				<h4 style={{ paddingTop: `15px` }}>Rosita</h4>
-
+		<div className="Directory-container" style={{ display: `flex` }}>
+			<div className="card">
+				<h4>Rosita</h4>
 				<img src="http://placekitten.com/300/200" />
 				<p>Breed: Domestic Short Hair & Tabby Mix</p>
 				<p>Adult - Male - Large - Tabby (Gray / Blue / Silver)</p>
 				<div>
-					<Link style={{ color: `black`, textDecoration: `none`, padding: `10px` }} to="editCat">
+					<Link className="Edit" to="editCat">
 						Edit
 					</Link>
-					<Link style={{ color: `black`, textDecoration: `none`, padding: `10px` }} to="removeCat">
+					<Link className="Remove" to="removeCat">
 						Remove
 					</Link>
 				</div>
 			</div>
-			<div
-				style={{
-					display: `flex`,
-					flexDirection: `column`,
-					textAlign: `center`,
-					width: `250px`,
-					border: `1px solid gray`,
-					borderRadius: `10px`,
-					margin: `0 5px`
-				}}
-			>
-				<h4 style={{ paddingTop: `15px` }}>Delilah</h4>
+			<div className="card">
+				<h4>Delilah</h4>
 				<img src="http://placekitten.com/300/200" />
 				<p>Breed: Domestic Short Hair & Tabby Mix</p>
 				<p>Adult - Male - Large - Tabby (Gray / Blue / Silver)</p>
 				<div>
-					<Link style={{ color: `black`, textDecoration: `none`, padding: `10px` }} to="edit">
+					<Link className="Edit" to="edit">
 						Edit
 					</Link>
-					<Link style={{ color: `black`, textDecoration: `none`, padding: `10px` }} to="remove">
+					<Link className="Remove" to="remove">
 						Remove
 					</Link>
 				</div>
 			</div>
-			<div
-				style={{
-					display: `flex`,
-					flexDirection: `column`,
-					textAlign: `center`,
-					width: `250px`,
-					border: `1px solid gray`,
-					borderRadius: `10px`,
-					margin: `0 5px`
-				}}
-			>
-				<h4 style={{ paddingTop: `15px` }}>Belinda</h4>
-
+			<div className="card">
+				<h4>Belinda</h4>
 				<img src="http://placekitten.com/300/200" />
 				<p>Breed: Domestic Short Hair & Tabby Mix</p>
 				<p>Adult - Male - Large - Tabby (Gray / Blue / Silver)</p>
 				<div>
-					<Link style={{ color: `black`, textDecoration: `none`, padding: `10px` }} to="edit">
+					<Link className="Edit" to="edit">
 						Edit
 					</Link>
-					<Link style={{ color: `black`, textDecoration: `none`, padding: `10px` }} to="remove">
+					<Link className="Remove" to="remove">
 						Remove
 					</Link>
 				</div>
 			</div>
-			<div
-				style={{
-					display: `flex`,
-					flexDirection: `column`,
-					textAlign: `center`,
-					width: `250px`,
-					border: `1px solid gray`,
-					borderRadius: `10px`,
-					margin: `0 5px`
-				}}
-			>
-				<h4 style={{ paddingTop: `15px` }}>Amos</h4>
+			<div className="card">
+				<h4>Amos</h4>
 				<img src="http://placekitten.com/300/200" />
 				<p>Breed: Domestic Short Hair & Tabby Mix</p>
 				<p>Adult - Male - Large - Tabby (Gray / Blue / Silver)</p>
 				<div>
-					<Link style={{ color: `black`, textDecoration: `none`, padding: `10px` }} to="edit">
+					<Link className="Edit" to="edit">
 						Edit
 					</Link>
-					<Link style={{ color: `black`, textDecoration: `none`, padding: `10px` }} to="remove">
+					<Link className="Remove" to="remove">
 						Remove
 					</Link>
 				</div>

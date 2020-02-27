@@ -1,0 +1,201 @@
+/* CSS Reset */
+
+html {
+	line-height: 1.15;
+	-webkit-text-size-adjust: 100%;
+}
+
+body {
+	margin: 0;
+}
+
+h1 {
+	font-size: 2em;
+	margin: 0.67em 0;
+}
+
+hr {
+	box-sizing: content-box;
+	height: 0;
+	overflow: visible;
+}
+
+a {
+	background-color: transparent;
+}
+
+strong {
+	font-weight: bolder;
+}
+
+img {
+	border-style: none;
+}
+
+input,
+select,
+textarea {
+	font-family: inherit;
+	font-size: 100%;
+	line-height: 1.15;
+	margin: 0;
+}
+
+input {
+	overflow: visible;
+}
+
+select {
+	text-transform: none;
+}
+
+[type='button'],
+[type='submit'] {
+	-webkit-appearance: button;
+}
+
+button::-moz-focus-inner,
+[type='button']::-moz-focus-inner,
+[type='submit']::-moz-focus-inner {
+	border-style: none;
+	padding: 0;
+}
+
+button:-moz-focusring,
+[type='button']:-moz-focusring,
+[type='reset']:-moz-focusring,
+[type='submit']:-moz-focusring {
+	outline: 1px dotted ButtonText;
+}
+
+textarea {
+	overflow: auto;
+}
+
+[type='number']::-webkit-inner-spin-button,
+[type='number']::-webkit-outer-spin-button {
+	height: auto;
+}
+
+[type='search'] {
+	-webkit-appearance: textfield;
+	outline-offset: -2px;
+}
+
+[type='search']::-webkit-search-decoration {
+	-webkit-appearance: none;
+}
+
+[hidden] {
+	display: none;
+}
+
+// Header
+
+header {
+	background: rgb(113, 238, 184);
+	margin-bottom: 1.45rem;
+	display: flex;
+	.TopDiv {
+		margin: 0 auto;
+		max-width: 960;
+		padding: 1.45rem 1.0875rem;
+	}
+	h1 {
+		margin: 0;
+	}
+	.Link {
+		color: white;
+		text-decoration: none;
+	}
+}
+
+// Home
+
+.Home-container {
+	display: flex;
+	.card {
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+		width: 250px;
+		border: 1px solid gray;
+		border-radius: 10px;
+		margin: 0 5px;
+	}
+	h4 {
+		padding-top: 15px;
+	}
+	.profile {
+		color: black;
+		text-decoration: none;
+		padding: 10px;
+	}
+}
+
+// Login
+.Login-form {
+	display: flex;
+	flex-direction: column;
+}
+
+// Directory
+.Directory-title {
+	display: flex;
+	align-items: center;
+}
+
+.Directory-container {
+	display: flex;
+	.card {
+			display: flex;
+			flex-direction: column;
+			text-align: center;
+			width: 250px;
+			border: 1px solid gray;
+			border-radius: 10px;
+			margin: 0 5px;
+	}
+	.Add {
+		padding-left: 15px;
+		color: black;
+		text-decoration: none;
+	}
+	.Edit {
+		color: black;
+		text-decoration: none;
+		padding: 10px;
+	}
+	.Remove {
+		color: black;
+		text-decoration: none;
+		padding: 10px;
+	}
+}
+
+// Profile
+
+// Footer
+
+footer {
+	display: flex;
+	background: rgba(113, 238, 184, 1);
+	text-align: center;
+	align-items: center;
+	margin-top: 25px;
+	.Contact {
+		width: 50%;
+		font-size: 12px;
+	}
+	.Programmer {
+	}
+
+	a {
+		color: black;
+		text-decoration: none;
+	}
+
+	a:hover {
+		color: blue;
+	}
+}

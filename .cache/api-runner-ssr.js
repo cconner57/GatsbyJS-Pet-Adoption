@@ -3,7 +3,7 @@ var plugins = [{
       options: {"plugins":[]},
     },{
       plugin: require('/Users/chris/Desktop/Coding/Completed Projects/GatsbyJS-Pet-Adoption/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
-      options: {"plugins":[],"name":"the-catty-shack","short_name":"catty-shack","start_url":"/","background_color":"#663399","theme_color":"#663399","display":"minimal-ui"},
+      options: {"plugins":[],"name":"the-catty-shack","short_name":"catty-shack","start_url":"/","background_color":"#71EEB8","theme_color":"#71EEB8","display":"minimal-ui"},
     }]
 // During bootstrap, we write requires at top of this file which looks like:
 // var plugins = [
