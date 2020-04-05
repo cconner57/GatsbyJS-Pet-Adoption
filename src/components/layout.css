@@ -203,20 +203,57 @@ header .Link {
 }
 
 footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background: #71eeb8;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-top: 25px;
 }
 
 footer .Contact {
-  width: 50%;
-  font-size: 12px;
+  font-size: 15px;
+  padding: 15px;
+  background: #71eeb8;
+}
+
+footer .Social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 15px;
+  background: rgba(113, 238, 184, 0.2);
+}
+
+footer .Social p {
+  font-size: 18px;
+}
+
+footer .Social a {
+  border: 1px solid black;
+  border-radius: 50%;
+  margin: 0 10px;
+  padding: 10px;
+  background: rgba(9, 51, 185, 0.3);
+}
+
+footer .Programmer {
+  padding: 15px;
+  background: rgba(113, 238, 184, 0.5);
 }
 
 footer a {
